@@ -1,0 +1,98 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.leftSide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.rightSide {
+  flex: 0 0 65%;
+  display: flex;
+  flex-direction: column;
+}
+
+.backSplash {
+  width: 100%;
+  height: 100%;
+}
+
+.logoAndBrandName {
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+
+.rightSideDivChild {
+  flex-grow: 1;
+}
+
+.messageDiv,
+.signupButtonDiv {
+    background-color: whitesmoke;
+}
+
+.messageDiv {
+    display: flex;
+    align-items: center;
+}
+
+.message {
+    width: 60%;
+    box-sizing: border-box;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-left: 75px;
+}
+
+.signupButtonDiv {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.createAccountButton {
+    height: 30%;
+    width: 20%;
+    font-size: x-large;
+    color: white;
+    background-color: darkblue;
+    border-radius: 16px;
+}
+
+.createAccountButton,
+.signInPrompt {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.formMessage {
+    font-size: x-large;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+
+
+.formDivvington {
+    display: flex;
+    flex-grow: 1;
+}

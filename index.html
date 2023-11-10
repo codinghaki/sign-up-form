@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up form</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="leftSide">
+        <img src="images/backsplash.jpg" alt="backsplash" class="backSplash" />
+        <div class="logoAndBrandName">Odin</div>
+      </div>
+
+      <div class="rightSide">
+        <div class="messageDiv rightSideDivChild">
+          <p class="message">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+            amet impedit voluptate cum. Animi, nihil omnis! Sed voluptatum culpa
+            necessitatibus adipisci nulla similique minus distinctio? Rem beatae
+            aperiam exercitationem itaque.
+          </p>
+        </div>
+
+        <div class="formDiv rightSideDivChild">
+          <div>
+            <span class="formMessage">Let's do this!</span>
+          </div>
+          <div class="formDivvington">
+            <form action="#" method="get" class="userForm">
+              <div class="formFirstSection">
+                <label for="firstName">FIRST NAME</label>
+                <input class="formInput" type="text" id="firstName" />
+
+                <label for="lastName">LAST NAME</label>
+                <input class="formInput" type="text" id="lastName" />
+              </div>
+
+              <div class="formSection">
+                <label for="userEmail">EMAIL</label>
+                <input class="formInput" type="email" id="userEmail" />
+
+                <label for="userPhoneNumber">PHONE NUMBER</label>
+                <input class="formInput" type="number" id="userPhoneNumber" />
+              </div>
+
+              <div class="formSection">
+                <label for="userInitialPasswordEntry">PASSWORD</label>
+                <input
+                  class="formInput"
+                  type="password"
+                  id="userInitialPasswordEntry"
+                />
+
+                <label for="userConfirmPassword">CONFIRM PASSWORD</label>
+                <input
+                  class="formInput"
+                  type="password"
+                  id="userConfirmPassword"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="signupButtonDiv rightSideDivChild">
+          <button class="createAccountButton">Create account</button>
+          <span class="signInPrompt"
+            >Already have an account? <a href="#">Sign in</a></span
+          >
+        </div>
+      </div>
+    </div>
+
+    <script src="JS/app.js"></script>
+  </body>
+</html>
